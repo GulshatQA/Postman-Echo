@@ -28,7 +28,7 @@ public class PostmanEchoTest {
                 .statusCode(200)
                 .contentType(ContentType.JSON)
                 .body("data", equalTo("The topic of the meeting"))
-                .body("headers.content-length", equalTo("22"));
+                .body("headers.content-length", equalTo("24"));
         ;
     }
 }
